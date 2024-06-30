@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca de Jogos - BETA</title>
+    <link rel="stylesheet" href="Home.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="biblioteca-titulo">Biblioteca de Jogos - BETA</h1>
+        <form id="searchForm">
+            <input type="text" id="searchInput" name="search" placeholder="Search for games...">
+            <button type="button" id="searchButton">Search</button>
+            <button type="button" id="clearButton">Limpar</button>
+            <button type="button" id="buttonLogin">
+                <a id="text-login" href="login.html">Login</a>
+            </button>
+            <button id="toggleModeButton">Dark/Light Mode</button>
+
+            <button type="button" id="profileButton" style="display: none;">
+                <a id="texto-perfil" href="profile.html">Meu Perfil</a>
+            </button>
+            <img id="userAvatar" src="user_avatar.png" alt="User Avatar" class="avatar" style="display: none;">
+        </form>
+        <div id="gamesList" class="games"></div>
+    </div>
+    <script src="api.js"></script>
+</body>
+</html>

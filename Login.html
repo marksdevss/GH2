@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamer Login</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <h2>Gamer Login</h2>
+            <form id="loginForm">
+                <div class="user-box">
+                    <input type="text" name="username" required="">
+                    <label>Username</label>
+                </div>
+                <div class="user-box">
+                    <input type="password" name="password" required="">
+                    <label>Password</label>
+                </div>
+                <a href="#" onclick="loginUser(); return false;">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Login
+                </a>
+            </form>
+            <form id="registerForm">
+                <div class="user-box">
+                    <input type="text" name="newUsername" required="">
+                    <label>New Username</label>
+                </div>
+                <div class="user-box">
+                    <input type="password" name="newPassword" required="">
+                    <label>New Password</label>
+                </div>
+                <div class="user-box">
+                    <input type="file" id="fileUpload" name="fileUpload" accept="image/*" required="">
+                    <label for="fileUpload">Upload Avatar</label>
+                </div>
+                <a href="#" onclick="registerUser(); return false;">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Register
+                </a>
+            </form>
+        </div>
+    </div>
+    <script src="Login.js"></script>
+</body>
+</html>
