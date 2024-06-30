@@ -13,8 +13,6 @@ GameHub é uma biblioteca de jogos que utiliza a API da RAWG para fornecer infor
 
 - **Frontend**: React.js
 - **Backend**: Node.js, Express.js
-- **Banco de Dados**: MongoDB
-- **Autenticação**: JWT (JSON Web Tokens)
 - **API**: RAWG Video Games Database API
 
 ## Instalação
